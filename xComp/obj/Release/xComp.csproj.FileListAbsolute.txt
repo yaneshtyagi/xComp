@@ -1,0 +1,15 @@
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Release\xComp.exe.config
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Release\xComp.exe
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Release\xComp.pdb
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Release\EPPlus.dll
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Release\xComp.csprojResolveAssemblyReference.cache
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Release\yCompnents.OfficeTools.xComp.About.resources
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Release\yCompnents.OfficeTools.xComp.frmXComp.resources
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Release\xComp.Properties.Resources.resources
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Release\xComp.csproj.GenerateResource.Cache
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Release\xComp.exe
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Release\xComp.pdb
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Release\xComp.exe.manifest
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Release\xComp.application
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Release\xComp.exe.manifest
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Release\xComp.application

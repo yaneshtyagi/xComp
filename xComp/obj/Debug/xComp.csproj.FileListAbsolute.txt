@@ -1,0 +1,24 @@
+E:\Yanesh\Projects RnD\xcomp\xComp\obj\Debug\xComp.exe
+E:\Yanesh\Projects RnD\xcomp\xComp\obj\Debug\xComp.pdb
+E:\Yanesh\Projects RnD\xcomp\xComp\bin\Debug\xComp.exe
+E:\Yanesh\Projects RnD\xcomp\xComp\bin\Debug\xComp.pdb
+E:\Yanesh\Projects RnD\xcomp\xComp\obj\Debug\xComp.csprojResolveAssemblyReference.cache
+E:\Yanesh\Projects RnD\xcomp\xComp\obj\Debug\yCompnents.OfficeTools.xComp.About.resources
+E:\Yanesh\Projects RnD\xcomp\xComp\obj\Debug\yCompnents.OfficeTools.xComp.frmXComp.resources
+E:\Yanesh\Projects RnD\xcomp\xComp\obj\Debug\xComp.Properties.Resources.resources
+E:\Yanesh\Projects RnD\xcomp\xComp\obj\Debug\xComp.csproj.GenerateResource.Cache
+E:\Yanesh\Projects RnD\xcomp\xComp\bin\Debug\xComp.exe.config
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\xComp.exe
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\xComp.pdb
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Debug\xComp.exe.config
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\yCompnents.OfficeTools.xComp.About.resources
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\yCompnents.OfficeTools.xComp.frmXComp.resources
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\xComp.Properties.Resources.resources
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\xComp.csproj.GenerateResource.Cache
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Debug\xComp.exe
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Debug\xComp.pdb
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Debug\EPPlus.dll
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Debug\xComp.exe.manifest
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Debug\xComp.application
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\xComp.exe.manifest
+E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\xComp.application
