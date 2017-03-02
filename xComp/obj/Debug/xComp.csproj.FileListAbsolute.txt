@@ -22,3 +22,16 @@ E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Debug\xComp.exe.manifest
 E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\bin\Debug\xComp.application
 E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\xComp.exe.manifest
 E:\Yanesh\Projects RnD\xcomp\SVN Checkout\xComp\obj\Debug\xComp.application
+D:\open-source\github\xComp\xComp\bin\Debug\xComp.exe.config
+D:\open-source\github\xComp\xComp\obj\Debug\xComp.exe
+D:\open-source\github\xComp\xComp\obj\Debug\xComp.pdb
+D:\open-source\github\xComp\xComp\obj\Debug\yCompnents.OfficeTools.xComp.About.resources
+D:\open-source\github\xComp\xComp\obj\Debug\yCompnents.OfficeTools.xComp.frmXComp.resources
+D:\open-source\github\xComp\xComp\obj\Debug\xComp.Properties.Resources.resources
+D:\open-source\github\xComp\xComp\obj\Debug\xComp.csproj.GenerateResource.Cache
+D:\open-source\github\xComp\xComp\bin\Debug\xComp.exe.manifest
+D:\open-source\github\xComp\xComp\bin\Debug\xComp.application
+D:\open-source\github\xComp\xComp\bin\Debug\xComp.exe
+D:\open-source\github\xComp\xComp\bin\Debug\xComp.pdb
+D:\open-source\github\xComp\xComp\obj\Debug\xComp.exe.manifest
+D:\open-source\github\xComp\xComp\obj\Debug\xComp.application
