@@ -51,3 +51,9 @@ G:\git\open-source\github\xComp\xComp\bin\Debug\xComp.pdb
 G:\git\open-source\github\xComp\xComp\obj\Debug\xComp.exe.manifest
 G:\git\open-source\github\xComp\xComp\obj\Debug\xComp.application
 G:\git\open-source\github\xComp\xComp\obj\Debug\xComp.csproj.CopyComplete
+G:\git\open-source\github\xComp\xComp\bin\Debug\ExcelDataReader.DataSet.dll
+G:\git\open-source\github\xComp\xComp\bin\Debug\ExcelDataReader.dll
+G:\git\open-source\github\xComp\xComp\bin\Debug\ExcelDataReader.pdb
+G:\git\open-source\github\xComp\xComp\bin\Debug\ExcelDataReader.xml
+G:\git\open-source\github\xComp\xComp\bin\Debug\ExcelDataReader.DataSet.pdb
+G:\git\open-source\github\xComp\xComp\bin\Debug\ExcelDataReader.DataSet.xml

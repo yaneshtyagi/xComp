@@ -9,6 +9,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Linq;
+using ExcelDataReader;
 using OfficeOpenXml;
 
 namespace yCompnents.OfficeTools.xComp
@@ -85,6 +86,7 @@ namespace yCompnents.OfficeTools.xComp
             }
             catch { return null; }
         }
+
 
         private DataTable loadExcelSheet1(string fileName, string sheet, string range)
         {
@@ -350,12 +352,15 @@ namespace yCompnents.OfficeTools.xComp
             {
                 if (string.IsNullOrEmpty(txtLeftRange.Text))
                 {
-                    dgvLeft.DataSource = loadExcelSheet(txtLeftFileName.Text).Tables[0];
+                    //dgvLeft.DataSource = loadExcelSheet(txtLeftFileName.Text).Tables[0];
+                    //dgvLeft.DataSource = loadExcelSheet1(txtLeftFileName.Text, txtLeftSheet.Text, txtLeftRange.Text);
+                    dgvLeft.DataSource = loadExcelSheet2(txtLeftFileName.Text, txtLeftSheet.Text, txtLeftRange.Text);
                 }
                 else
                 {
                     //dgvLeft.DataSource = GetExcelRange(txtLeftRange.Text);
-                    dgvLeft.DataSource = loadExcelSheet1(txtLeftFileName.Text, txtLeftSheet.Text, txtLeftRange.Text);
+                    //dgvLeft.DataSource = loadExcelSheet1(txtLeftFileName.Text, txtLeftSheet.Text, txtLeftRange.Text);
+                    dgvLeft.DataSource = loadExcelSheet2(txtLeftFileName.Text, txtLeftSheet.Text, txtLeftRange.Text);
                 }
                 dgvLeft.AutoGenerateColumns = true;
             }
@@ -365,12 +370,13 @@ namespace yCompnents.OfficeTools.xComp
             {
                 if (string.IsNullOrEmpty(txtRightRange.Text))
                 {
-                    dgvRight.DataSource = loadExcelSheet(txtRightFileName.Text).Tables[0];
+                    //dgvRight.DataSource = loadExcelSheet(txtRightFileName.Text).Tables[0];
+                    dgvRight.DataSource = loadExcelSheet2(txtRightFileName.Text, txtRightSheet.Text, txtRightRange.Text);
                 }
                 else
                 {
                     //dgvRight.DataSource = GetExcelRange(txtRightRange.Text);
-                    dgvRight.DataSource = loadExcelSheet1(txtRightFileName.Text, txtRightSheet.Text, txtRightRange.Text);
+                    dgvRight.DataSource = loadExcelSheet2(txtRightFileName.Text, txtRightSheet.Text, txtRightRange.Text);
                 }
                 dgvLeft.AutoGenerateColumns = true;
             }
@@ -576,6 +582,31 @@ namespace yCompnents.OfficeTools.xComp
         {
             DoNotClearGridOnReloadLabel.Text = "Clear grid on reload";
             this.clearGridOnReload = true;
+        }
+
+        private DataTable loadExcelSheet2(string fileName, string sheet, string range)
+        {
+            try
+            {
+                toolStripProgressBar1.Value += 5;
+                FileInfo existingFile = new FileInfo(fileName);
+
+
+                using (var stream = File.Open(fileName, FileMode.Open, FileAccess.Read))
+                {
+                    using (var reader = ExcelReaderFactory.CreateReader(stream))
+                    {
+                        
+                        var x = reader.AsDataSet(new ExcelDataSetConfiguration()
+                        {
+                            UseColumnDataType = true,
+                            FilterSheet = (tableReader, sheetIndex) =>  tableReader.Name.Equals(sheet)
+                        });
+                        return x.Tables[0];
+                    }
+                }
+            }
+            catch { return null; }
         }
 
     }
