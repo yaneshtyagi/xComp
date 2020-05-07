@@ -3,15 +3,18 @@
   <assemblyIdentity name="xComp.application" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="xComp" asmv2:product="xComp" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.7" profile="Full" supportedRuntime="4.0.30319" />
+  </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="xComp.exe.manifest" size="5086">
+    <dependentAssembly dependencyType="install" codebase="xComp.exe.manifest" size="4582">
       <assemblyIdentity name="xComp.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>vlub8KMWWVKg77rw322+SXOSV98=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IDnIVucGTsD7SPDW+GIrgel8yj4rRXBIgLJgTZ9SpPg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
