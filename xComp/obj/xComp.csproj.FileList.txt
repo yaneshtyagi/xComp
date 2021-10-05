@@ -1,9 +1,0 @@
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\yCompnents.OfficeTools.xComp.frmXComp.resources
-obj\Debug\xComp.Properties.Resources.resources
-obj\Debug\xComp.csproj.GenerateResource.Cache
-bin\Debug\xComp.exe
-bin\Debug\xComp.pdb
-obj\Debug\xComp.exe
-obj\Debug\xComp.pdb
-obj\Debug\yCompnents.OfficeTools.xComp.About.resources
