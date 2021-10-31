@@ -1,6 +1,6 @@
 {
   "name": "xcomp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Modern Spreadsheet comparison tool with practical intelligence",
   "main": "main.js",
   "scripts": {
